@@ -3,15 +3,20 @@ import java.util.ArrayList;
 class GameMenu{
 	
 
-	ArrayList<String> actions = new ArrayList<String>();
+	private ArrayList<String> actions = new ArrayList<String>();
 
 
-	GameMenu(ArrayList<String> list){
+	public GameMenu(ArrayList<String> list){
 
-		ArrayList<String> list = ArrayList<String> actions
+		list = actions;
 				
 	}
 
+	public void displayMenu(ArrayList<String> list){
+		for(String s : list){
+			System.out.println(s);
+		}
+	}	
 
 
 }

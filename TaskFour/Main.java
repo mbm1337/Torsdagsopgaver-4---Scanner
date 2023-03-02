@@ -12,7 +12,14 @@ class Main{
 
 
 
-		    System.out.print(actions.get(2));
+		   // System.out.print(actions.get(2));
+
+
+		    GameMenu g1 = new GameMenu(actions);
+
+		    g1.displayMenu(actions);
+		
+
 	}
 
 
